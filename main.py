@@ -11,7 +11,7 @@ BRIGHTNESS_ADJUSTMENT = 0  # Make final image brighter (increase) or darker (dec
 INVERTED = False  # Invert brightness
 
 capture = cv2.VideoCapture(0)  # CAMERA INPUT
-# capture = cv2.VideoCapture('ObamaSpeech.mp4')  # FILE INPUT
+# capture = cv2.VideoCapture('input.mp4')  # FILE INPUT
 
 WIDTH, HEIGHT = int(capture.get(3) * RESOLUTION_FACTOR), int(capture.get(4) * RESOLUTION_FACTOR)
 DOT_RADIUS = DIE_WIDTH // 10
