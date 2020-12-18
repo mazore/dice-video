@@ -1,4 +1,4 @@
-# DiceVideo
+# Dice Video
 Live camera and video conversion to dice
 
 
